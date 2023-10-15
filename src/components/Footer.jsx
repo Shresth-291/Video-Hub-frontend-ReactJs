@@ -38,14 +38,14 @@ const Footer = () => {
                 <Heading size={'md'} textTransform={'uppercase'}>
                     Social Media
                 </Heading>
-                <Button colorScheme={'white'} variant={'link'}>
+                {/* <Button colorScheme={'white'} variant={'link'}>
                     <a target='_blank' href="/twitter">Twitter</a>
+                </Button> */}
+                <Button colorScheme={'white'} variant={'link'}>
+                    <a target='blank' href="https://www.linkedin.com/in/shresth-gupta-7a1749271">LinkedIn</a>
                 </Button>
                 <Button colorScheme={'white'} variant={'link'}>
-                    <a target='_blank' href="/LinkedIn">LinkedIn</a>
-                </Button>
-                <Button colorScheme={'white'} variant={'link'}>
-                    <a target='_blank' href="/Github">GitHub</a>
+                    <a target='blank' href="https://github.com/Shresth-291">GitHub</a>
                 </Button>
             </VStack>
         </Stack>
